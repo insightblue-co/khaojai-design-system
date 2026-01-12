@@ -52,7 +52,7 @@
     "prepublishOnly": "pnpm generate && pnpm build"
   },
   "dependencies": {
-    "@untitledui/icons": "^1.0.0",
+    "@untitledui/icons": "0.0.20",
     "react-aria-components": "^1.5.0",
     "tailwind-merge": "^2.6.0"
   },
