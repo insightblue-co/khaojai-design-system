@@ -1,0 +1,102 @@
+{
+  "name": "khaojai-design-system",
+  "version": "0.1.0",
+  "description": "Khaojai Design System - A wrapper around Untitled UI with custom color tokens",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./colors": {
+      "import": {
+        "types": "./dist/tokens/colors.d.ts",
+        "default": "./dist/tokens/colors.js"
+      },
+      "require": {
+        "types": "./dist/tokens/colors.d.cts",
+        "default": "./dist/tokens/colors.cjs"
+      }
+    },
+    "./tailwind-preset": {
+      "import": {
+        "types": "./dist/tailwind/preset.d.ts",
+        "default": "./dist/tailwind/preset.js"
+      },
+      "require": {
+        "types": "./dist/tailwind/preset.d.cts",
+        "default": "./dist/tailwind/preset.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "generate": "tsx scripts/generate-tokens.ts",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "lint": "eslint src --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm generate && pnpm build"
+  },
+  "peerDependencies": {
+    "@untitledui/react": "^1.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "tailwindcss": "^3.4.0 || ^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@untitledui/react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^8.4.7",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-interactions": "^8.4.7",
+    "@storybook/addon-links": "^8.4.7",
+    "@storybook/blocks": "^8.4.7",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-vite": "^8.4.7",
+    "@storybook/test": "^8.4.7",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "storybook": "^8.4.7",
+    "tailwindcss": "^3.4.17",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "tailwindcss",
+    "untitled-ui",
+    "ui-components",
+    "color-tokens"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

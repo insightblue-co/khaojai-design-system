@@ -1,0 +1,92 @@
+# Khaojai Design System - Cursor Rules
+
+## Project Overview
+
+This is a React design system package (`khaojai-design-system`) that wraps Untitled UI with custom color tokens exported from Figma. It provides:
+
+- TypeScript color token constants
+- Tailwind CSS preset with brand colors
+- React components with Storybook documentation
+
+## Tech Stack
+
+- **Framework**: React 18+ with TypeScript
+- **Styling**: Tailwind CSS 3.4+
+- **Build**: tsup (ESM + CJS output)
+- **Documentation**: Storybook 8 with Vite
+- **Package Manager**: pnpm
+
+## Key Conventions
+
+### Color Tokens
+
+- Source of truth: `figma/exported-styles.json` (exported from Figma)
+- Generated files (DO NOT edit manually):
+  - `src/tokens/colors.ts` - TypeScript constants
+  - `src/tailwind/preset.ts` - Tailwind color config
+- Run `pnpm generate` after updating the Figma JSON
+
+### Naming Conventions
+
+- **TypeScript tokens**: PascalCase with shade number (e.g., `Brand500`, `GrayLightMode25`)
+- **Tailwind classes**: kebab-case (e.g., `bg-brand-500`, `text-grayLight-25`)
+- **Components**: PascalCase, one component per folder with index.ts barrel export
+
+### File Structure Pattern
+
+```
+src/components/ComponentName/
+├── ComponentName.tsx        # Main component
+├── ComponentName.stories.tsx # Storybook stories
+└── index.ts                 # Barrel export
+```
+
+## Important Commands
+
+- `pnpm generate` - Regenerate tokens from Figma JSON
+- `pnpm storybook` - Start Storybook dev server (port 6006)
+- `pnpm build` - Build package for distribution
+- `pnpm build-storybook` - Build static Storybook site
+
+## When Adding New Components
+
+1. Create folder in `src/components/ComponentName/`
+2. Create `ComponentName.tsx` with proper TypeScript props interface
+3. Create `ComponentName.stories.tsx` with variants and documentation
+4. Create `index.ts` barrel export
+5. Export from `src/components/index.ts`
+6. Use Tailwind classes with design system colors (e.g., `bg-brand-500`)
+
+## When Updating Colors
+
+1. Get new JSON export from Figma
+2. Replace `figma/exported-styles.json`
+3. Run `pnpm generate`
+4. Verify changes in Storybook (`pnpm storybook`)
+
+## Component Styling Guidelines
+
+- Use Tailwind classes exclusively (no inline styles unless dynamic)
+- Reference design system colors via Tailwind: `brand-{shade}`, `error-{shade}`, etc.
+- Support `variant`, `size`, and common props like `className`, `disabled`
+- Use `React.forwardRef` for DOM element components
+
+## Package Exports Structure
+
+```typescript
+// Main entry: components + tokens
+import { Button, Brand500 } from "khaojai-design-system";
+
+// Colors only
+import { Brand500 } from "khaojai-design-system/colors";
+
+// Tailwind preset
+import khaojaiPreset from "khaojai-design-system/tailwind-preset";
+```
+
+## DO NOT
+
+- Edit `src/tokens/colors.ts` or `src/tailwind/preset.ts` manually (they are generated)
+- Add dependencies without checking peer dependency requirements
+- Use CSS-in-JS or styled-components (use Tailwind only)
+- Skip Storybook stories for new components
