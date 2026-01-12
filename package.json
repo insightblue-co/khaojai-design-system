@@ -1,5 +1,5 @@
 {
-  "name": "khaojai-design-system",
+  "name": "@khaojai/design-system",
   "version": "0.1.0",
   "description": "Khaojai Design System - A wrapper around Untitled UI with custom color tokens",
   "type": "module",
