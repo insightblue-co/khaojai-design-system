@@ -170,11 +170,19 @@ import preset from "khaojai-design-system/tailwind-preset";
 
 ## Dependencies
 
+**Bundled Dependencies** (included with package):
+- `@untitledui/icons` - Untitled UI icons
+- `react-aria-components` - Accessible component primitives
+- `tailwind-merge` - Tailwind class merging utility
+
 **Peer Dependencies** (consumer must install):
 - `react` ^18.0.0
 - `react-dom` ^18.0.0
 - `tailwindcss` ^3.4.0
-- `@untitledui/react` ^1.0.0 (optional)
+- `tailwindcss-animate` (optional)
+- `tailwindcss-react-aria-components` (optional)
+
+**Note**: Untitled UI components are generated via CLI (`npx untitledui@latest init`), not installed as npm package. Only icons and utilities are npm packages.
 
 ## Don'ts
 

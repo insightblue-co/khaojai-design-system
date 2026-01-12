@@ -1,18 +1,13 @@
 // =============================================================================
-// Component Re-exports from Untitled UI
+// Khaojai Design System Components
 // =============================================================================
+// Components styled with Khaojai color tokens and Tailwind CSS.
+// Based on Untitled UI design patterns (components generated via their CLI).
 
-// Uncomment and update these exports once @untitledui/react is installed:
-// export * from "@untitledui/react";
+// Untitled UI Button (from npx untitledui@latest add button)
+export { Button, styles as ButtonStyles } from "./base/buttons/button";
+export type { ButtonProps, CommonProps as ButtonCommonProps, Props as ButtonAllProps } from "./base/buttons/button";
 
-// =============================================================================
-// Custom Component Overrides
-// =============================================================================
-
-// Export your custom component wrappers here
-export { Button } from "./Button";
-export type { ButtonProps } from "./Button";
-
-// Add more custom components as needed:
-// export { CustomInput } from "./Input/Input";
-// export { CustomCard } from "./Card/Card";
+// Add more components as needed:
+// export { Input } from "./base/input/input";
+// export { Card } from "./base/card/card";

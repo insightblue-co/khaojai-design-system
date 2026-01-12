@@ -1,4 +1,5 @@
 import { defineConfig } from "tsup";
+import path from "path";
 
 export default defineConfig({
   entry: {
@@ -11,6 +12,20 @@ export default defineConfig({
   splitting: false,
   sourcemap: true,
   clean: true,
-  external: ["react", "react-dom", "@untitledui/react", "tailwindcss"],
+  external: [
+    "react",
+    "react-dom",
+    "tailwindcss",
+    "@untitledui/icons",
+    "react-aria-components",
+    "tailwind-merge",
+    "tailwindcss-animate",
+    "tailwindcss-react-aria-components",
+  ],
   treeshake: true,
+  esbuildOptions(options) {
+    options.alias = {
+      "@": path.resolve(__dirname, "src"),
+    };
+  },
 });

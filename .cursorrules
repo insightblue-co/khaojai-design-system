@@ -2,11 +2,13 @@
 
 ## Project Overview
 
-This is a React design system package (`khaojai-design-system`) that wraps Untitled UI with custom color tokens exported from Figma. It provides:
+This is a React design system package (`khaojai-design-system`) with custom color tokens exported from Figma. Component designs follow Untitled UI patterns. It provides:
 
 - TypeScript color token constants
 - Tailwind CSS preset with brand colors
 - React components with Storybook documentation
+
+**Note**: Untitled UI components are NOT an npm package. They're generated via CLI (`npx untitledui@latest init`). This package provides standalone components styled with Khaojai brand colors.
 
 ## Tech Stack
 

@@ -16,6 +16,13 @@ export * from "./tokens/colors";
 export * from "./components";
 
 // -----------------------------------------------------------------------------
+// Utilities
+// -----------------------------------------------------------------------------
+// Utility functions (cx for class merging, etc.)
+export { cx, sortCx } from "./utils/cx";
+export { isReactComponent } from "./utils/is-react-component";
+
+// -----------------------------------------------------------------------------
 // Tailwind Preset
 // -----------------------------------------------------------------------------
 // Re-export the preset for convenience (also available via /tailwind-preset)

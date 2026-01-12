@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button } from "./Button";
+import { Button } from "../base/buttons/button";
+import { Plus, ArrowRight } from "@untitledui/icons";
 
 const meta: Meta<typeof Button> = {
   title: "Components/Button",
@@ -9,27 +10,23 @@ const meta: Meta<typeof Button> = {
   },
   tags: ["autodocs"],
   argTypes: {
-    variant: {
+    color: {
       control: "select",
-      options: ["primary", "secondary", "tertiary", "destructive", "ghost"],
-      description: "Visual style variant of the button",
+      options: ["primary", "secondary", "tertiary", "link-gray", "link-color", "primary-destructive", "secondary-destructive", "tertiary-destructive", "link-destructive"],
+      description: "Color variant of the button",
     },
     size: {
       control: "select",
-      options: ["sm", "md", "lg", "xl", "2xl"],
+      options: ["sm", "md", "lg", "xl"],
       description: "Size of the button",
     },
-    fullWidth: {
+    isDisabled: {
       control: "boolean",
-      description: "Whether the button should take full width",
+      description: "Disables the button",
     },
     isLoading: {
       control: "boolean",
-      description: "Shows loading spinner and disables the button",
-    },
-    disabled: {
-      control: "boolean",
-      description: "Disables the button",
+      description: "Shows loading spinner",
     },
   },
 };
@@ -41,8 +38,8 @@ type Story = StoryObj<typeof Button>;
 export const Default: Story = {
   args: {
     children: "Button",
-    variant: "primary",
-    size: "md",
+    color: "primary",
+    size: "sm",
   },
 };
 
@@ -50,35 +47,57 @@ export const Default: Story = {
 export const Primary: Story = {
   args: {
     children: "Primary Button",
-    variant: "primary",
+    color: "primary",
   },
 };
 
 export const Secondary: Story = {
   args: {
     children: "Secondary Button",
-    variant: "secondary",
+    color: "secondary",
   },
 };
 
 export const Tertiary: Story = {
   args: {
     children: "Tertiary Button",
-    variant: "tertiary",
+    color: "tertiary",
   },
 };
 
-export const Destructive: Story = {
+export const LinkGray: Story = {
+  args: {
+    children: "Link Gray",
+    color: "link-gray",
+  },
+};
+
+export const LinkColor: Story = {
+  args: {
+    children: "Link Color",
+    color: "link-color",
+  },
+};
+
+// Destructive variants
+export const PrimaryDestructive: Story = {
   args: {
     children: "Delete",
-    variant: "destructive",
+    color: "primary-destructive",
   },
 };
 
-export const Ghost: Story = {
+export const SecondaryDestructive: Story = {
   args: {
-    children: "Ghost Button",
-    variant: "ghost",
+    children: "Delete",
+    color: "secondary-destructive",
+  },
+};
+
+export const TertiaryDestructive: Story = {
+  args: {
+    children: "Delete",
+    color: "tertiary-destructive",
   },
 };
 
@@ -111,13 +130,6 @@ export const ExtraLarge: Story = {
   },
 };
 
-export const XXLarge: Story = {
-  args: {
-    children: "2X Large",
-    size: "2xl",
-  },
-};
-
 // States
 export const Loading: Story = {
   args: {
@@ -129,76 +141,28 @@ export const Loading: Story = {
 export const Disabled: Story = {
   args: {
     children: "Disabled",
-    disabled: true,
+    isDisabled: true,
   },
-};
-
-export const FullWidth: Story = {
-  args: {
-    children: "Full Width Button",
-    fullWidth: true,
-  },
-  decorators: [
-    (Story) => (
-      <div style={{ width: "400px" }}>
-        <Story />
-      </div>
-    ),
-  ],
 };
 
 // With Icons
-const PlusIcon = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="20"
-    height="20"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="M12 5v14M5 12h14" />
-  </svg>
-);
-
-const ArrowRightIcon = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="20"
-    height="20"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="M5 12h14M12 5l7 7-7 7" />
-  </svg>
-);
-
-export const WithLeftIcon: Story = {
+export const WithLeadingIcon: Story = {
   args: {
     children: "Add Item",
-    leftIcon: <PlusIcon />,
+    iconLeading: Plus,
   },
 };
 
-export const WithRightIcon: Story = {
+export const WithTrailingIcon: Story = {
   args: {
     children: "Continue",
-    rightIcon: <ArrowRightIcon />,
+    iconTrailing: ArrowRight,
   },
 };
 
-export const WithBothIcons: Story = {
+export const IconOnly: Story = {
   args: {
-    children: "Navigate",
-    leftIcon: <PlusIcon />,
-    rightIcon: <ArrowRightIcon />,
+    iconLeading: Plus,
   },
 };
 
@@ -207,48 +171,52 @@ export const AllVariants: Story = {
   render: () => (
     <div className="flex flex-col gap-8">
       <div>
-        <h3 className="text-sm font-medium text-grayLight-500 mb-3">Variants</h3>
+        <h3 className="text-sm font-medium text-gray-500 mb-3">Primary Colors</h3>
         <div className="flex flex-wrap gap-3">
-          <Button variant="primary">Primary</Button>
-          <Button variant="secondary">Secondary</Button>
-          <Button variant="tertiary">Tertiary</Button>
-          <Button variant="destructive">Destructive</Button>
-          <Button variant="ghost">Ghost</Button>
+          <Button color="primary">Primary</Button>
+          <Button color="secondary">Secondary</Button>
+          <Button color="tertiary">Tertiary</Button>
+          <Button color="link-gray">Link Gray</Button>
+          <Button color="link-color">Link Color</Button>
         </div>
       </div>
 
       <div>
-        <h3 className="text-sm font-medium text-grayLight-500 mb-3">Sizes</h3>
+        <h3 className="text-sm font-medium text-gray-500 mb-3">Destructive Colors</h3>
+        <div className="flex flex-wrap gap-3">
+          <Button color="primary-destructive">Primary</Button>
+          <Button color="secondary-destructive">Secondary</Button>
+          <Button color="tertiary-destructive">Tertiary</Button>
+          <Button color="link-destructive">Link</Button>
+        </div>
+      </div>
+
+      <div>
+        <h3 className="text-sm font-medium text-gray-500 mb-3">Sizes</h3>
         <div className="flex flex-wrap items-center gap-3">
           <Button size="sm">Small</Button>
           <Button size="md">Medium</Button>
           <Button size="lg">Large</Button>
           <Button size="xl">XL</Button>
-          <Button size="2xl">2XL</Button>
         </div>
       </div>
 
       <div>
-        <h3 className="text-sm font-medium text-grayLight-500 mb-3">States</h3>
+        <h3 className="text-sm font-medium text-gray-500 mb-3">States</h3>
         <div className="flex flex-wrap gap-3">
           <Button>Default</Button>
-          <Button disabled>Disabled</Button>
+          <Button isDisabled>Disabled</Button>
           <Button isLoading>Loading</Button>
         </div>
       </div>
 
       <div>
-        <h3 className="text-sm font-medium text-grayLight-500 mb-3">
-          Secondary Variants
-        </h3>
+        <h3 className="text-sm font-medium text-gray-500 mb-3">With Icons</h3>
         <div className="flex flex-wrap gap-3">
-          <Button variant="secondary">Default</Button>
-          <Button variant="secondary" disabled>
-            Disabled
-          </Button>
-          <Button variant="secondary" isLoading>
-            Loading
-          </Button>
+          <Button iconLeading={Plus}>Leading</Button>
+          <Button iconTrailing={ArrowRight}>Trailing</Button>
+          <Button iconLeading={Plus} iconTrailing={ArrowRight}>Both</Button>
+          <Button iconLeading={Plus} />
         </div>
       </div>
     </div>

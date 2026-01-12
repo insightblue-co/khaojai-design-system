@@ -13,11 +13,14 @@ A React design system with custom color tokens exported from Figma, built to wor
 ## Installation
 
 ```bash
-# Install the package
+# Install the package (includes @untitledui/icons, react-aria-components, tailwind-merge)
 pnpm add khaojai-design-system
 
 # Install peer dependencies
-pnpm add @untitledui/react react react-dom tailwindcss
+pnpm add react react-dom tailwindcss
+
+# Optional: Install Tailwind plugins for full Untitled UI support
+pnpm add tailwindcss-animate tailwindcss-react-aria-components
 ```
 
 ## Setup
@@ -34,7 +37,6 @@ export default {
   content: [
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/khaojai-design-system/**/*.js",
-    "./node_modules/@untitledui/react/**/*.js",
   ],
 };
 ```
