@@ -13,55 +13,55 @@ export const BaseBlack = "#0e0e3f" as const;
 
 // Gray (light mode)
 /** Gray (light mode) - shade 25 */
-export const GrayLightMode25 = "#fdfdfd" as const;
+export const Graylightmode25 = "#fdfdfd" as const;
 /** Gray (light mode) - shade 50 */
-export const GrayLightMode50 = "#fafafa" as const;
+export const Graylightmode50 = "#fafafa" as const;
 /** Gray (light mode) - shade 100 */
-export const GrayLightMode100 = "#f5f5f5" as const;
+export const Graylightmode100 = "#f5f5f5" as const;
 /** Gray (light mode) - shade 200 */
-export const GrayLightMode200 = "#e9eaeb" as const;
+export const Graylightmode200 = "#e9eaeb" as const;
 /** Gray (light mode) - shade 300 */
-export const GrayLightMode300 = "#d5d7da" as const;
+export const Graylightmode300 = "#d5d7da" as const;
 /** Gray (light mode) - shade 400 */
-export const GrayLightMode400 = "#a4a7ae" as const;
+export const Graylightmode400 = "#a4a7ae" as const;
 /** Gray (light mode) - shade 500 */
-export const GrayLightMode500 = "#717680" as const;
+export const Graylightmode500 = "#717680" as const;
 /** Gray (light mode) - shade 600 */
-export const GrayLightMode600 = "#535862" as const;
+export const Graylightmode600 = "#535862" as const;
 /** Gray (light mode) - shade 700 */
-export const GrayLightMode700 = "#414651" as const;
+export const Graylightmode700 = "#414651" as const;
 /** Gray (light mode) - shade 800 */
-export const GrayLightMode800 = "#252b37" as const;
+export const Graylightmode800 = "#252b37" as const;
 /** Gray (light mode) - shade 900 */
-export const GrayLightMode900 = "#181d27" as const;
+export const Graylightmode900 = "#181d27" as const;
 /** Gray (light mode) - shade 950 */
-export const GrayLightMode950 = "#0e0e3f" as const;
+export const Graylightmode950 = "#0e0e3f" as const;
 
 // Gray (dark mode)
 /** Gray (dark mode) - shade 25 */
-export const GrayDarkMode25 = "#fafafa" as const;
+export const Graydarkmode25 = "#fafafa" as const;
 /** Gray (dark mode) - shade 50 */
-export const GrayDarkMode50 = "#f7f7f7" as const;
+export const Graydarkmode50 = "#f7f7f7" as const;
 /** Gray (dark mode) - shade 100 */
-export const GrayDarkMode100 = "#f0f0f1" as const;
+export const Graydarkmode100 = "#f0f0f1" as const;
 /** Gray (dark mode) - shade 200 */
-export const GrayDarkMode200 = "#ececed" as const;
+export const Graydarkmode200 = "#ececed" as const;
 /** Gray (dark mode) - shade 300 */
-export const GrayDarkMode300 = "#cecfd2" as const;
+export const Graydarkmode300 = "#cecfd2" as const;
 /** Gray (dark mode) - shade 400 */
-export const GrayDarkMode400 = "#94979c" as const;
+export const Graydarkmode400 = "#94979c" as const;
 /** Gray (dark mode) - shade 500 */
-export const GrayDarkMode500 = "#85888e" as const;
+export const Graydarkmode500 = "#85888e" as const;
 /** Gray (dark mode) - shade 600 */
-export const GrayDarkMode600 = "#61656c" as const;
+export const Graydarkmode600 = "#61656c" as const;
 /** Gray (dark mode) - shade 700 */
-export const GrayDarkMode700 = "#373a41" as const;
+export const Graydarkmode700 = "#373a41" as const;
 /** Gray (dark mode) - shade 800 */
-export const GrayDarkMode800 = "#22262f" as const;
+export const Graydarkmode800 = "#22262f" as const;
 /** Gray (dark mode) - shade 900 */
-export const GrayDarkMode900 = "#13161b" as const;
+export const Graydarkmode900 = "#13161b" as const;
 /** Gray (dark mode) - shade 950 */
-export const GrayDarkMode950 = "#0c0e12" as const;
+export const Graydarkmode950 = "#0c0e12" as const;
 
 // Brand
 /** Brand - shade 25 */
@@ -169,185 +169,185 @@ export const Success950 = "#053321" as const;
 
 // Gray blue
 /** Gray blue - shade 25 */
-export const GrayBlue25 = "#fcfcfd" as const;
+export const Grayblue25 = "#fcfcfd" as const;
 /** Gray blue - shade 50 */
-export const GrayBlue50 = "#f8f9fc" as const;
+export const Grayblue50 = "#f8f9fc" as const;
 /** Gray blue - shade 100 */
-export const GrayBlue100 = "#eaecf5" as const;
+export const Grayblue100 = "#eaecf5" as const;
 /** Gray blue - shade 200 */
-export const GrayBlue200 = "#d5d9eb" as const;
+export const Grayblue200 = "#d5d9eb" as const;
 /** Gray blue - shade 300 */
-export const GrayBlue300 = "#b3b8db" as const;
+export const Grayblue300 = "#b3b8db" as const;
 /** Gray blue - shade 400 */
-export const GrayBlue400 = "#717bbc" as const;
+export const Grayblue400 = "#717bbc" as const;
 /** Gray blue - shade 500 */
-export const GrayBlue500 = "#4e5ba6" as const;
+export const Grayblue500 = "#4e5ba6" as const;
 /** Gray blue - shade 600 */
-export const GrayBlue600 = "#3e4784" as const;
+export const Grayblue600 = "#3e4784" as const;
 /** Gray blue - shade 700 */
-export const GrayBlue700 = "#363f72" as const;
+export const Grayblue700 = "#363f72" as const;
 /** Gray blue - shade 800 */
-export const GrayBlue800 = "#293056" as const;
+export const Grayblue800 = "#293056" as const;
 /** Gray blue - shade 900 */
-export const GrayBlue900 = "#101323" as const;
+export const Grayblue900 = "#101323" as const;
 /** Gray blue - shade 950 */
-export const GrayBlue950 = "#0d0f1c" as const;
+export const Grayblue950 = "#0d0f1c" as const;
 
 // Gray cool
 /** Gray cool - shade 25 */
-export const GrayCool25 = "#fcfcfd" as const;
+export const Graycool25 = "#fcfcfd" as const;
 /** Gray cool - shade 50 */
-export const GrayCool50 = "#f9f9fb" as const;
+export const Graycool50 = "#f9f9fb" as const;
 /** Gray cool - shade 100 */
-export const GrayCool100 = "#eff1f5" as const;
+export const Graycool100 = "#eff1f5" as const;
 /** Gray cool - shade 200 */
-export const GrayCool200 = "#dcdfea" as const;
+export const Graycool200 = "#dcdfea" as const;
 /** Gray cool - shade 300 */
-export const GrayCool300 = "#b9c0d4" as const;
+export const Graycool300 = "#b9c0d4" as const;
 /** Gray cool - shade 400 */
-export const GrayCool400 = "#7d89b0" as const;
+export const Graycool400 = "#7d89b0" as const;
 /** Gray cool - shade 500 */
-export const GrayCool500 = "#5d6b98" as const;
+export const Graycool500 = "#5d6b98" as const;
 /** Gray cool - shade 600 */
-export const GrayCool600 = "#4a5578" as const;
+export const Graycool600 = "#4a5578" as const;
 /** Gray cool - shade 700 */
-export const GrayCool700 = "#404968" as const;
+export const Graycool700 = "#404968" as const;
 /** Gray cool - shade 800 */
-export const GrayCool800 = "#30374f" as const;
+export const Graycool800 = "#30374f" as const;
 /** Gray cool - shade 900 */
-export const GrayCool900 = "#111322" as const;
+export const Graycool900 = "#111322" as const;
 /** Gray cool - shade 950 */
-export const GrayCool950 = "#0e101b" as const;
+export const Graycool950 = "#0e101b" as const;
 
 // Gray modern
 /** Gray modern - shade 25 */
-export const GrayModern25 = "#fcfcfd" as const;
+export const Graymodern25 = "#fcfcfd" as const;
 /** Gray modern - shade 50 */
-export const GrayModern50 = "#f8fafc" as const;
+export const Graymodern50 = "#f8fafc" as const;
 /** Gray modern - shade 100 */
-export const GrayModern100 = "#eef2f6" as const;
+export const Graymodern100 = "#eef2f6" as const;
 /** Gray modern - shade 200 */
-export const GrayModern200 = "#e3e8ef" as const;
+export const Graymodern200 = "#e3e8ef" as const;
 /** Gray modern - shade 300 */
-export const GrayModern300 = "#cdd5df" as const;
+export const Graymodern300 = "#cdd5df" as const;
 /** Gray modern - shade 400 */
-export const GrayModern400 = "#9aa4b2" as const;
+export const Graymodern400 = "#9aa4b2" as const;
 /** Gray modern - shade 500 */
-export const GrayModern500 = "#697586" as const;
+export const Graymodern500 = "#697586" as const;
 /** Gray modern - shade 600 */
-export const GrayModern600 = "#4b5565" as const;
+export const Graymodern600 = "#4b5565" as const;
 /** Gray modern - shade 700 */
-export const GrayModern700 = "#364152" as const;
+export const Graymodern700 = "#364152" as const;
 /** Gray modern - shade 800 */
-export const GrayModern800 = "#202939" as const;
+export const Graymodern800 = "#202939" as const;
 /** Gray modern - shade 900 */
-export const GrayModern900 = "#121926" as const;
+export const Graymodern900 = "#121926" as const;
 /** Gray modern - shade 950 */
-export const GrayModern950 = "#0d121c" as const;
+export const Graymodern950 = "#0d121c" as const;
 
 // Gray neutral
 /** Gray neutral - shade 25 */
-export const GrayNeutral25 = "#fcfcfd" as const;
+export const Grayneutral25 = "#fcfcfd" as const;
 /** Gray neutral - shade 50 */
-export const GrayNeutral50 = "#f9fafb" as const;
+export const Grayneutral50 = "#f9fafb" as const;
 /** Gray neutral - shade 100 */
-export const GrayNeutral100 = "#f3f4f6" as const;
+export const Grayneutral100 = "#f3f4f6" as const;
 /** Gray neutral - shade 200 */
-export const GrayNeutral200 = "#e5e7eb" as const;
+export const Grayneutral200 = "#e5e7eb" as const;
 /** Gray neutral - shade 300 */
-export const GrayNeutral300 = "#d2d6db" as const;
+export const Grayneutral300 = "#d2d6db" as const;
 /** Gray neutral - shade 400 */
-export const GrayNeutral400 = "#9da4ae" as const;
+export const Grayneutral400 = "#9da4ae" as const;
 /** Gray neutral - shade 500 */
-export const GrayNeutral500 = "#6c737f" as const;
+export const Grayneutral500 = "#6c737f" as const;
 /** Gray neutral - shade 600 */
-export const GrayNeutral600 = "#4d5761" as const;
+export const Grayneutral600 = "#4d5761" as const;
 /** Gray neutral - shade 700 */
-export const GrayNeutral700 = "#384250" as const;
+export const Grayneutral700 = "#384250" as const;
 /** Gray neutral - shade 800 */
-export const GrayNeutral800 = "#1f2a37" as const;
+export const Grayneutral800 = "#1f2a37" as const;
 /** Gray neutral - shade 900 */
-export const GrayNeutral900 = "#111927" as const;
+export const Grayneutral900 = "#111927" as const;
 /** Gray neutral - shade 950 */
-export const GrayNeutral950 = "#0d121c" as const;
+export const Grayneutral950 = "#0d121c" as const;
 
 // Gray iron
 /** Gray iron - shade 25 */
-export const GrayIron25 = "#fcfcfc" as const;
+export const Grayiron25 = "#fcfcfc" as const;
 /** Gray iron - shade 50 */
-export const GrayIron50 = "#fafafa" as const;
+export const Grayiron50 = "#fafafa" as const;
 /** Gray iron - shade 100 */
-export const GrayIron100 = "#f4f4f5" as const;
+export const Grayiron100 = "#f4f4f5" as const;
 /** Gray iron - shade 200 */
-export const GrayIron200 = "#e4e4e7" as const;
+export const Grayiron200 = "#e4e4e7" as const;
 /** Gray iron - shade 300 */
-export const GrayIron300 = "#d1d1d6" as const;
+export const Grayiron300 = "#d1d1d6" as const;
 /** Gray iron - shade 400 */
-export const GrayIron400 = "#a0a0ab" as const;
+export const Grayiron400 = "#a0a0ab" as const;
 /** Gray iron - shade 500 */
-export const GrayIron500 = "#70707b" as const;
+export const Grayiron500 = "#70707b" as const;
 /** Gray iron - shade 600 */
-export const GrayIron600 = "#51525c" as const;
+export const Grayiron600 = "#51525c" as const;
 /** Gray iron - shade 700 */
-export const GrayIron700 = "#3f3f46" as const;
+export const Grayiron700 = "#3f3f46" as const;
 /** Gray iron - shade 800 */
-export const GrayIron800 = "#26272b" as const;
+export const Grayiron800 = "#26272b" as const;
 /** Gray iron - shade 900 */
-export const GrayIron900 = "#1a1a1e" as const;
+export const Grayiron900 = "#1a1a1e" as const;
 /** Gray iron - shade 950 */
-export const GrayIron950 = "#131316" as const;
+export const Grayiron950 = "#131316" as const;
 
 // Gray true
 /** Gray true - shade 25 */
-export const GrayTrue25 = "#fcfcfc" as const;
+export const Graytrue25 = "#fcfcfc" as const;
 /** Gray true - shade 50 */
-export const GrayTrue50 = "#f7f7f7" as const;
+export const Graytrue50 = "#f7f7f7" as const;
 /** Gray true - shade 100 */
-export const GrayTrue100 = "#f5f5f5" as const;
+export const Graytrue100 = "#f5f5f5" as const;
 /** Gray true - shade 200 */
-export const GrayTrue200 = "#e5e5e5" as const;
+export const Graytrue200 = "#e5e5e5" as const;
 /** Gray true - shade 300 */
-export const GrayTrue300 = "#d6d6d6" as const;
+export const Graytrue300 = "#d6d6d6" as const;
 /** Gray true - shade 400 */
-export const GrayTrue400 = "#a3a3a3" as const;
+export const Graytrue400 = "#a3a3a3" as const;
 /** Gray true - shade 500 */
-export const GrayTrue500 = "#737373" as const;
+export const Graytrue500 = "#737373" as const;
 /** Gray true - shade 600 */
-export const GrayTrue600 = "#525252" as const;
+export const Graytrue600 = "#525252" as const;
 /** Gray true - shade 700 */
-export const GrayTrue700 = "#424242" as const;
+export const Graytrue700 = "#424242" as const;
 /** Gray true - shade 800 */
-export const GrayTrue800 = "#292929" as const;
+export const Graytrue800 = "#292929" as const;
 /** Gray true - shade 900 */
-export const GrayTrue900 = "#141414" as const;
+export const Graytrue900 = "#141414" as const;
 /** Gray true - shade 950 */
-export const GrayTrue950 = "#0f0f0f" as const;
+export const Graytrue950 = "#0f0f0f" as const;
 
 // Gray warm
 /** Gray warm - shade 25 */
-export const GrayWarm25 = "#fdfdfc" as const;
+export const Graywarm25 = "#fdfdfc" as const;
 /** Gray warm - shade 50 */
-export const GrayWarm50 = "#fafaf9" as const;
+export const Graywarm50 = "#fafaf9" as const;
 /** Gray warm - shade 100 */
-export const GrayWarm100 = "#f5f5f4" as const;
+export const Graywarm100 = "#f5f5f4" as const;
 /** Gray warm - shade 200 */
-export const GrayWarm200 = "#e7e5e4" as const;
+export const Graywarm200 = "#e7e5e4" as const;
 /** Gray warm - shade 300 */
-export const GrayWarm300 = "#d7d3d0" as const;
+export const Graywarm300 = "#d7d3d0" as const;
 /** Gray warm - shade 400 */
-export const GrayWarm400 = "#a9a29d" as const;
+export const Graywarm400 = "#a9a29d" as const;
 /** Gray warm - shade 500 */
-export const GrayWarm500 = "#79716b" as const;
+export const Graywarm500 = "#79716b" as const;
 /** Gray warm - shade 600 */
-export const GrayWarm600 = "#57534e" as const;
+export const Graywarm600 = "#57534e" as const;
 /** Gray warm - shade 700 */
-export const GrayWarm700 = "#44403c" as const;
+export const Graywarm700 = "#44403c" as const;
 /** Gray warm - shade 800 */
-export const GrayWarm800 = "#292524" as const;
+export const Graywarm800 = "#292524" as const;
 /** Gray warm - shade 900 */
-export const GrayWarm900 = "#1c1917" as const;
+export const Graywarm900 = "#1c1917" as const;
 /** Gray warm - shade 950 */
-export const GrayWarm950 = "#171412" as const;
+export const Graywarm950 = "#171412" as const;
 
 // Moss
 /** Moss - shade 25 */
@@ -377,29 +377,29 @@ export const Moss950 = "#1a280b" as const;
 
 // Green light
 /** Green light - shade 25 */
-export const GreenLight25 = "#fafef5" as const;
+export const Greenlight25 = "#fafef5" as const;
 /** Green light - shade 50 */
-export const GreenLight50 = "#f3fee7" as const;
+export const Greenlight50 = "#f3fee7" as const;
 /** Green light - shade 100 */
-export const GreenLight100 = "#e3fbcc" as const;
+export const Greenlight100 = "#e3fbcc" as const;
 /** Green light - shade 200 */
-export const GreenLight200 = "#d0f8ab" as const;
+export const Greenlight200 = "#d0f8ab" as const;
 /** Green light - shade 300 */
-export const GreenLight300 = "#a6ef67" as const;
+export const Greenlight300 = "#a6ef67" as const;
 /** Green light - shade 400 */
-export const GreenLight400 = "#85e13a" as const;
+export const Greenlight400 = "#85e13a" as const;
 /** Green light - shade 500 */
-export const GreenLight500 = "#66c61c" as const;
+export const Greenlight500 = "#66c61c" as const;
 /** Green light - shade 600 */
-export const GreenLight600 = "#4ca30d" as const;
+export const Greenlight600 = "#4ca30d" as const;
 /** Green light - shade 700 */
-export const GreenLight700 = "#3b7c0f" as const;
+export const Greenlight700 = "#3b7c0f" as const;
 /** Green light - shade 800 */
-export const GreenLight800 = "#326212" as const;
+export const Greenlight800 = "#326212" as const;
 /** Green light - shade 900 */
-export const GreenLight900 = "#2b5314" as const;
+export const Greenlight900 = "#2b5314" as const;
 /** Green light - shade 950 */
-export const GreenLight950 = "#15290a" as const;
+export const Greenlight950 = "#15290a" as const;
 
 // Green
 /** Green - shade 25 */
@@ -481,29 +481,29 @@ export const Cyan950 = "#0d2d3a" as const;
 
 // Blue light
 /** Blue light - shade 25 */
-export const BlueLight25 = "#f6feff" as const;
+export const Bluelight25 = "#f6feff" as const;
 /** Blue light - shade 50 */
-export const BlueLight50 = "#f0f9ff" as const;
+export const Bluelight50 = "#f0f9ff" as const;
 /** Blue light - shade 100 */
-export const BlueLight100 = "#e0f2fe" as const;
+export const Bluelight100 = "#e0f2fe" as const;
 /** Blue light - shade 200 */
-export const BlueLight200 = "#b9e6fe" as const;
+export const Bluelight200 = "#b9e6fe" as const;
 /** Blue light - shade 300 */
-export const BlueLight300 = "#7cd4fd" as const;
+export const Bluelight300 = "#7cd4fd" as const;
 /** Blue light - shade 400 */
-export const BlueLight400 = "#36bffa" as const;
+export const Bluelight400 = "#36bffa" as const;
 /** Blue light - shade 500 */
-export const BlueLight500 = "#0ba5ec" as const;
+export const Bluelight500 = "#0ba5ec" as const;
 /** Blue light - shade 600 */
-export const BlueLight600 = "#0086c9" as const;
+export const Bluelight600 = "#0086c9" as const;
 /** Blue light - shade 700 */
-export const BlueLight700 = "#026aa2" as const;
+export const Bluelight700 = "#026aa2" as const;
 /** Blue light - shade 800 */
-export const BlueLight800 = "#065986" as const;
+export const Bluelight800 = "#065986" as const;
 /** Blue light - shade 900 */
-export const BlueLight900 = "#0b4a6f" as const;
+export const Bluelight900 = "#0b4a6f" as const;
 /** Blue light - shade 950 */
-export const BlueLight950 = "#062c41" as const;
+export const Bluelight950 = "#062c41" as const;
 
 // Blue
 /** Blue - shade 25 */
@@ -533,29 +533,29 @@ export const Blue950 = "#001932" as const;
 
 // Blue dark
 /** Blue dark - shade 25 */
-export const BlueDark25 = "#f5f8ff" as const;
+export const Bluedark25 = "#f5f8ff" as const;
 /** Blue dark - shade 50 */
-export const BlueDark50 = "#eff4ff" as const;
+export const Bluedark50 = "#eff4ff" as const;
 /** Blue dark - shade 100 */
-export const BlueDark100 = "#d1e0ff" as const;
+export const Bluedark100 = "#d1e0ff" as const;
 /** Blue dark - shade 200 */
-export const BlueDark200 = "#b2ccff" as const;
+export const Bluedark200 = "#b2ccff" as const;
 /** Blue dark - shade 300 */
-export const BlueDark300 = "#84adff" as const;
+export const Bluedark300 = "#84adff" as const;
 /** Blue dark - shade 400 */
-export const BlueDark400 = "#528bff" as const;
+export const Bluedark400 = "#528bff" as const;
 /** Blue dark - shade 500 */
-export const BlueDark500 = "#2970ff" as const;
+export const Bluedark500 = "#2970ff" as const;
 /** Blue dark - shade 600 */
-export const BlueDark600 = "#155eef" as const;
+export const Bluedark600 = "#155eef" as const;
 /** Blue dark - shade 700 */
-export const BlueDark700 = "#004eeb" as const;
+export const Bluedark700 = "#004eeb" as const;
 /** Blue dark - shade 800 */
-export const BlueDark800 = "#0040c1" as const;
+export const Bluedark800 = "#0040c1" as const;
 /** Blue dark - shade 900 */
-export const BlueDark900 = "#00359e" as const;
+export const Bluedark900 = "#00359e" as const;
 /** Blue dark - shade 950 */
-export const BlueDark950 = "#002266" as const;
+export const Bluedark950 = "#002266" as const;
 
 // Indigo
 /** Indigo - shade 25 */
@@ -715,29 +715,29 @@ export const Rose950 = "#510b24" as const;
 
 // Orange dark
 /** Orange dark - shade 25 */
-export const OrangeDark25 = "#fff9f5" as const;
+export const Orangedark25 = "#fff9f5" as const;
 /** Orange dark - shade 50 */
-export const OrangeDark50 = "#fff4ed" as const;
+export const Orangedark50 = "#fff4ed" as const;
 /** Orange dark - shade 100 */
-export const OrangeDark100 = "#ffe6d5" as const;
+export const Orangedark100 = "#ffe6d5" as const;
 /** Orange dark - shade 200 */
-export const OrangeDark200 = "#ffd6ae" as const;
+export const Orangedark200 = "#ffd6ae" as const;
 /** Orange dark - shade 300 */
-export const OrangeDark300 = "#ff9c66" as const;
+export const Orangedark300 = "#ff9c66" as const;
 /** Orange dark - shade 400 */
-export const OrangeDark400 = "#ff692e" as const;
+export const Orangedark400 = "#ff692e" as const;
 /** Orange dark - shade 500 */
-export const OrangeDark500 = "#ff4405" as const;
+export const Orangedark500 = "#ff4405" as const;
 /** Orange dark - shade 600 */
-export const OrangeDark600 = "#e62e05" as const;
+export const Orangedark600 = "#e62e05" as const;
 /** Orange dark - shade 700 */
-export const OrangeDark700 = "#bc1b06" as const;
+export const Orangedark700 = "#bc1b06" as const;
 /** Orange dark - shade 800 */
-export const OrangeDark800 = "#97180c" as const;
+export const Orangedark800 = "#97180c" as const;
 /** Orange dark - shade 900 */
-export const OrangeDark900 = "#771a0d" as const;
+export const Orangedark900 = "#771a0d" as const;
 /** Orange dark - shade 950 */
-export const OrangeDark950 = "#57130a" as const;
+export const Orangedark950 = "#57130a" as const;
 
 // Orange
 /** Orange - shade 25 */
@@ -798,30 +798,30 @@ export const Yellow950 = "#542c0d" as const;
 export const colors = {
   BaseWhite: "#ffffff",
   BaseBlack: "#0e0e3f",
-  GrayLightMode25: "#fdfdfd",
-  GrayLightMode50: "#fafafa",
-  GrayLightMode100: "#f5f5f5",
-  GrayLightMode200: "#e9eaeb",
-  GrayLightMode300: "#d5d7da",
-  GrayLightMode400: "#a4a7ae",
-  GrayLightMode500: "#717680",
-  GrayLightMode600: "#535862",
-  GrayLightMode700: "#414651",
-  GrayLightMode800: "#252b37",
-  GrayLightMode900: "#181d27",
-  GrayLightMode950: "#0e0e3f",
-  GrayDarkMode25: "#fafafa",
-  GrayDarkMode50: "#f7f7f7",
-  GrayDarkMode100: "#f0f0f1",
-  GrayDarkMode200: "#ececed",
-  GrayDarkMode300: "#cecfd2",
-  GrayDarkMode400: "#94979c",
-  GrayDarkMode500: "#85888e",
-  GrayDarkMode600: "#61656c",
-  GrayDarkMode700: "#373a41",
-  GrayDarkMode800: "#22262f",
-  GrayDarkMode900: "#13161b",
-  GrayDarkMode950: "#0c0e12",
+  Graylightmode25: "#fdfdfd",
+  Graylightmode50: "#fafafa",
+  Graylightmode100: "#f5f5f5",
+  Graylightmode200: "#e9eaeb",
+  Graylightmode300: "#d5d7da",
+  Graylightmode400: "#a4a7ae",
+  Graylightmode500: "#717680",
+  Graylightmode600: "#535862",
+  Graylightmode700: "#414651",
+  Graylightmode800: "#252b37",
+  Graylightmode900: "#181d27",
+  Graylightmode950: "#0e0e3f",
+  Graydarkmode25: "#fafafa",
+  Graydarkmode50: "#f7f7f7",
+  Graydarkmode100: "#f0f0f1",
+  Graydarkmode200: "#ececed",
+  Graydarkmode300: "#cecfd2",
+  Graydarkmode400: "#94979c",
+  Graydarkmode500: "#85888e",
+  Graydarkmode600: "#61656c",
+  Graydarkmode700: "#373a41",
+  Graydarkmode800: "#22262f",
+  Graydarkmode900: "#13161b",
+  Graydarkmode950: "#0c0e12",
   Brand25: "#e8f1f9",
   Brand50: "#d0e3f4",
   Brand100: "#b9d5ee",
@@ -870,6 +870,294 @@ export const colors = {
   Success800: "#085d3a",
   Success900: "#074d31",
   Success950: "#053321",
+  Grayblue25: "#fcfcfd",
+  Grayblue50: "#f8f9fc",
+  Grayblue100: "#eaecf5",
+  Grayblue200: "#d5d9eb",
+  Grayblue300: "#b3b8db",
+  Grayblue400: "#717bbc",
+  Grayblue500: "#4e5ba6",
+  Grayblue600: "#3e4784",
+  Grayblue700: "#363f72",
+  Grayblue800: "#293056",
+  Grayblue900: "#101323",
+  Grayblue950: "#0d0f1c",
+  Graycool25: "#fcfcfd",
+  Graycool50: "#f9f9fb",
+  Graycool100: "#eff1f5",
+  Graycool200: "#dcdfea",
+  Graycool300: "#b9c0d4",
+  Graycool400: "#7d89b0",
+  Graycool500: "#5d6b98",
+  Graycool600: "#4a5578",
+  Graycool700: "#404968",
+  Graycool800: "#30374f",
+  Graycool900: "#111322",
+  Graycool950: "#0e101b",
+  Graymodern25: "#fcfcfd",
+  Graymodern50: "#f8fafc",
+  Graymodern100: "#eef2f6",
+  Graymodern200: "#e3e8ef",
+  Graymodern300: "#cdd5df",
+  Graymodern400: "#9aa4b2",
+  Graymodern500: "#697586",
+  Graymodern600: "#4b5565",
+  Graymodern700: "#364152",
+  Graymodern800: "#202939",
+  Graymodern900: "#121926",
+  Graymodern950: "#0d121c",
+  Grayneutral25: "#fcfcfd",
+  Grayneutral50: "#f9fafb",
+  Grayneutral100: "#f3f4f6",
+  Grayneutral200: "#e5e7eb",
+  Grayneutral300: "#d2d6db",
+  Grayneutral400: "#9da4ae",
+  Grayneutral500: "#6c737f",
+  Grayneutral600: "#4d5761",
+  Grayneutral700: "#384250",
+  Grayneutral800: "#1f2a37",
+  Grayneutral900: "#111927",
+  Grayneutral950: "#0d121c",
+  Grayiron25: "#fcfcfc",
+  Grayiron50: "#fafafa",
+  Grayiron100: "#f4f4f5",
+  Grayiron200: "#e4e4e7",
+  Grayiron300: "#d1d1d6",
+  Grayiron400: "#a0a0ab",
+  Grayiron500: "#70707b",
+  Grayiron600: "#51525c",
+  Grayiron700: "#3f3f46",
+  Grayiron800: "#26272b",
+  Grayiron900: "#1a1a1e",
+  Grayiron950: "#131316",
+  Graytrue25: "#fcfcfc",
+  Graytrue50: "#f7f7f7",
+  Graytrue100: "#f5f5f5",
+  Graytrue200: "#e5e5e5",
+  Graytrue300: "#d6d6d6",
+  Graytrue400: "#a3a3a3",
+  Graytrue500: "#737373",
+  Graytrue600: "#525252",
+  Graytrue700: "#424242",
+  Graytrue800: "#292929",
+  Graytrue900: "#141414",
+  Graytrue950: "#0f0f0f",
+  Graywarm25: "#fdfdfc",
+  Graywarm50: "#fafaf9",
+  Graywarm100: "#f5f5f4",
+  Graywarm200: "#e7e5e4",
+  Graywarm300: "#d7d3d0",
+  Graywarm400: "#a9a29d",
+  Graywarm500: "#79716b",
+  Graywarm600: "#57534e",
+  Graywarm700: "#44403c",
+  Graywarm800: "#292524",
+  Graywarm900: "#1c1917",
+  Graywarm950: "#171412",
+  Moss25: "#fafdf7",
+  Moss50: "#f5fbee",
+  Moss100: "#e6f4d7",
+  Moss200: "#ceeab0",
+  Moss300: "#acdc79",
+  Moss400: "#86cb3c",
+  Moss500: "#669f2a",
+  Moss600: "#4f7a21",
+  Moss700: "#3f621a",
+  Moss800: "#335015",
+  Moss900: "#2b4212",
+  Moss950: "#1a280b",
+  Greenlight25: "#fafef5",
+  Greenlight50: "#f3fee7",
+  Greenlight100: "#e3fbcc",
+  Greenlight200: "#d0f8ab",
+  Greenlight300: "#a6ef67",
+  Greenlight400: "#85e13a",
+  Greenlight500: "#66c61c",
+  Greenlight600: "#4ca30d",
+  Greenlight700: "#3b7c0f",
+  Greenlight800: "#326212",
+  Greenlight900: "#2b5314",
+  Greenlight950: "#15290a",
+  Green25: "#f6fef9",
+  Green50: "#edfcf2",
+  Green100: "#d3f8df",
+  Green200: "#aaf0c4",
+  Green300: "#73e2a3",
+  Green400: "#3ccb7f",
+  Green500: "#16b364",
+  Green600: "#099250",
+  Green700: "#087443",
+  Green800: "#095c37",
+  Green900: "#084c2e",
+  Green950: "#052e1c",
+  Teal25: "#f6fefc",
+  Teal50: "#f0fdf9",
+  Teal100: "#ccfbef",
+  Teal200: "#99f6e0",
+  Teal300: "#5fe9d0",
+  Teal400: "#2ed3b7",
+  Teal500: "#15b79e",
+  Teal600: "#0e9384",
+  Teal700: "#107569",
+  Teal800: "#125d56",
+  Teal900: "#134e48",
+  Teal950: "#0a2926",
+  Cyan25: "#f5feff",
+  Cyan50: "#ecfdff",
+  Cyan100: "#cff9fe",
+  Cyan200: "#a5f0fc",
+  Cyan300: "#67e3f9",
+  Cyan400: "#22ccee",
+  Cyan500: "#06aed4",
+  Cyan600: "#088ab2",
+  Cyan700: "#0e7090",
+  Cyan800: "#155b75",
+  Cyan900: "#164c63",
+  Cyan950: "#0d2d3a",
+  Bluelight25: "#f6feff",
+  Bluelight50: "#f0f9ff",
+  Bluelight100: "#e0f2fe",
+  Bluelight200: "#b9e6fe",
+  Bluelight300: "#7cd4fd",
+  Bluelight400: "#36bffa",
+  Bluelight500: "#0ba5ec",
+  Bluelight600: "#0086c9",
+  Bluelight700: "#026aa2",
+  Bluelight800: "#065986",
+  Bluelight900: "#0b4a6f",
+  Bluelight950: "#062c41",
+  Blue25: "#e6f2ff",
+  Blue50: "#cce5fe",
+  Blue100: "#b3d7fe",
+  Blue200: "#9acafe",
+  Blue300: "#67b0fd",
+  Blue400: "#3595fd",
+  Blue500: "#027bfc",
+  Blue600: "#0262ca",
+  Blue700: "#014a97",
+  Blue800: "#013165",
+  Blue900: "#01254c",
+  Blue950: "#001932",
+  Bluedark25: "#f5f8ff",
+  Bluedark50: "#eff4ff",
+  Bluedark100: "#d1e0ff",
+  Bluedark200: "#b2ccff",
+  Bluedark300: "#84adff",
+  Bluedark400: "#528bff",
+  Bluedark500: "#2970ff",
+  Bluedark600: "#155eef",
+  Bluedark700: "#004eeb",
+  Bluedark800: "#0040c1",
+  Bluedark900: "#00359e",
+  Bluedark950: "#002266",
+  Indigo25: "#f5f8ff",
+  Indigo50: "#eef4ff",
+  Indigo100: "#e0eaff",
+  Indigo200: "#c7d7fe",
+  Indigo300: "#a4bcfd",
+  Indigo400: "#8098f9",
+  Indigo500: "#6172f3",
+  Indigo600: "#444ce7",
+  Indigo700: "#3538cd",
+  Indigo800: "#2d31a6",
+  Indigo900: "#2d3282",
+  Indigo950: "#1f235b",
+  Violet25: "#fbfaff",
+  Violet50: "#f5f3ff",
+  Violet100: "#ece9fe",
+  Violet200: "#ddd6fe",
+  Violet300: "#c3b5fd",
+  Violet400: "#a48afb",
+  Violet500: "#875bf7",
+  Violet600: "#7839ee",
+  Violet700: "#6927da",
+  Violet800: "#5720b7",
+  Violet900: "#491c96",
+  Violet950: "#2e125e",
+  Purple25: "#fafaff",
+  Purple50: "#f4f3ff",
+  Purple100: "#ebe9fe",
+  Purple200: "#d9d6fe",
+  Purple300: "#bdb4fe",
+  Purple400: "#9b8afb",
+  Purple500: "#7a5af8",
+  Purple600: "#6938ef",
+  Purple700: "#5925dc",
+  Purple800: "#4a1fb8",
+  Purple900: "#3e1c96",
+  Purple950: "#27115f",
+  Fuchsia25: "#fefaff",
+  Fuchsia50: "#fdf4ff",
+  Fuchsia100: "#fbe8ff",
+  Fuchsia200: "#f6d0fe",
+  Fuchsia300: "#eeaafd",
+  Fuchsia400: "#e478fa",
+  Fuchsia500: "#d444f1",
+  Fuchsia600: "#ba24d5",
+  Fuchsia700: "#9f1ab1",
+  Fuchsia800: "#821890",
+  Fuchsia900: "#6f1877",
+  Fuchsia950: "#47104c",
+  Pink25: "#fef6fb",
+  Pink50: "#fdf2fa",
+  Pink100: "#fce7f6",
+  Pink200: "#fcceee",
+  Pink300: "#faa7e0",
+  Pink400: "#f670c7",
+  Pink500: "#ee46bc",
+  Pink600: "#dd2590",
+  Pink700: "#c11574",
+  Pink800: "#9e165f",
+  Pink900: "#851651",
+  Pink950: "#4e0d30",
+  Rose25: "#fff5f6",
+  Rose50: "#fff1f3",
+  Rose100: "#ffe4e8",
+  Rose200: "#fecdd6",
+  Rose300: "#fea3b4",
+  Rose400: "#fd6f8e",
+  Rose500: "#f63d68",
+  Rose600: "#e31b54",
+  Rose700: "#c01048",
+  Rose800: "#a11043",
+  Rose900: "#89123e",
+  Rose950: "#510b24",
+  Orangedark25: "#fff9f5",
+  Orangedark50: "#fff4ed",
+  Orangedark100: "#ffe6d5",
+  Orangedark200: "#ffd6ae",
+  Orangedark300: "#ff9c66",
+  Orangedark400: "#ff692e",
+  Orangedark500: "#ff4405",
+  Orangedark600: "#e62e05",
+  Orangedark700: "#bc1b06",
+  Orangedark800: "#97180c",
+  Orangedark900: "#771a0d",
+  Orangedark950: "#57130a",
+  Orange25: "#fefaf5",
+  Orange50: "#fef6ee",
+  Orange100: "#fdead7",
+  Orange200: "#f9dbaf",
+  Orange300: "#f7b27a",
+  Orange400: "#f38744",
+  Orange500: "#ef6820",
+  Orange600: "#e04f16",
+  Orange700: "#b93815",
+  Orange800: "#932f19",
+  Orange900: "#772917",
+  Orange950: "#511c10",
+  Yellow25: "#fefdf0",
+  Yellow50: "#fefbe8",
+  Yellow100: "#fef7c3",
+  Yellow200: "#feee95",
+  Yellow300: "#fde272",
+  Yellow400: "#fac515",
+  Yellow500: "#eaaa08",
+  Yellow600: "#ca8504",
+  Yellow700: "#a15c07",
+  Yellow800: "#854a0e",
+  Yellow900: "#713b12",
+  Yellow950: "#542c0d",
 } as const;
 
 export type ColorToken = keyof typeof colors;

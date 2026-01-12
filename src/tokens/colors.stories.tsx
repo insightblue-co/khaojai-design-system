@@ -14,11 +14,9 @@ type Story = StoryObj;
 
 // Helper component to display a color swatch
 const ColorSwatch = ({
-  name,
   value,
   shade,
 }: {
-  name: string;
   value: string;
   shade?: string;
 }) => {
@@ -73,7 +71,7 @@ const ColorScale = ({
       <h3 className="text-lg font-semibold mb-3 capitalize">{name}</h3>
       <div className="grid grid-cols-6 md:grid-cols-12 gap-2">
         {sortedShades.map(([shade, value]) => (
-          <ColorSwatch key={shade} name={name} shade={shade} value={value} />
+          <ColorSwatch key={shade} shade={shade} value={value} />
         ))}
       </div>
     </div>
@@ -123,13 +121,13 @@ export const GrayScales: Story = {
         </p>
         <ColorScale name="Gray (Light Mode)" shades={colors.grayLight} />
         <ColorScale name="Gray (Dark Mode)" shades={colors.grayDark} />
-        <ColorScale name="Gray Modern" shades={colors.grayModern} />
-        <ColorScale name="Gray Neutral" shades={colors.grayNeutral} />
-        <ColorScale name="Gray Cool" shades={colors.grayCool} />
-        <ColorScale name="Gray Warm" shades={colors.grayWarm} />
-        <ColorScale name="Gray Iron" shades={colors.grayIron} />
-        <ColorScale name="Gray True" shades={colors.grayTrue} />
-        <ColorScale name="Gray Blue" shades={colors.grayBlue} />
+        {colors.graymodern && <ColorScale name="Gray Modern" shades={colors.graymodern} />}
+        {colors.grayneutral && <ColorScale name="Gray Neutral" shades={colors.grayneutral} />}
+        {colors.graycool && <ColorScale name="Gray Cool" shades={colors.graycool} />}
+        {colors.graywarm && <ColorScale name="Gray Warm" shades={colors.graywarm} />}
+        {colors.grayiron && <ColorScale name="Gray Iron" shades={colors.grayiron} />}
+        {colors.graytrue && <ColorScale name="Gray True" shades={colors.graytrue} />}
+        {colors.grayblue && <ColorScale name="Gray Blue" shades={colors.grayblue} />}
       </div>
     </div>
   ),
@@ -147,14 +145,14 @@ export const ExtendedColors: Story = {
         
         <h2 className="text-xl font-semibold mb-4 mt-8">Blues</h2>
         <ColorScale name="blue" shades={colors.blue} />
-        <ColorScale name="Blue Light" shades={colors.blueLight} />
-        <ColorScale name="Blue Dark" shades={colors.blueDark} />
+        {colors.bluelight && <ColorScale name="Blue Light" shades={colors.bluelight} />}
+        {colors.bluedark && <ColorScale name="Blue Dark" shades={colors.bluedark} />}
         
         <h2 className="text-xl font-semibold mb-4 mt-8">Greens</h2>
         <ColorScale name="green" shades={colors.green} />
-        <ColorScale name="Green Light" shades={colors.greenLight} />
+        {colors.greenlight && <ColorScale name="Green Light" shades={colors.greenlight} />}
         <ColorScale name="teal" shades={colors.teal} />
-        <ColorScale name="moss" shades={colors.moss} />
+        {colors.moss && <ColorScale name="moss" shades={colors.moss} />}
         <ColorScale name="cyan" shades={colors.cyan} />
         
         <h2 className="text-xl font-semibold mb-4 mt-8">Purples & Pinks</h2>
@@ -167,7 +165,7 @@ export const ExtendedColors: Story = {
         
         <h2 className="text-xl font-semibold mb-4 mt-8">Oranges & Yellows</h2>
         <ColorScale name="orange" shades={colors.orange} />
-        <ColorScale name="Orange Dark" shades={colors.orangeDark} />
+        {colors.orangedark && <ColorScale name="Orange Dark" shades={colors.orangedark} />}
         <ColorScale name="yellow" shades={colors.yellow} />
       </div>
     </div>
@@ -187,22 +185,22 @@ export const BaseColors: Story = {
           <div className="flex flex-col">
             <div
               className="h-24 w-full rounded-lg shadow-sm border border-gray-200 flex items-end justify-between p-3"
-              style={{ backgroundColor: colors.base.white }}
+              style={{ backgroundColor: colors.base.White }}
             >
               <span className="text-sm font-medium text-gray-800">White</span>
               <span className="text-xs font-mono text-gray-600">
-                {colors.base.white}
+                {colors.base.White}
               </span>
             </div>
           </div>
           <div className="flex flex-col">
             <div
               className="h-24 w-full rounded-lg shadow-sm flex items-end justify-between p-3"
-              style={{ backgroundColor: colors.base.black }}
+              style={{ backgroundColor: colors.base.Black }}
             >
               <span className="text-sm font-medium text-white">Black</span>
               <span className="text-xs font-mono text-white/80">
-                {colors.base.black}
+                {colors.base.Black}
               </span>
             </div>
           </div>
@@ -226,8 +224,8 @@ export const AllColors: Story = {
           <section>
             <h2 className="text-2xl font-semibold mb-4 border-b pb-2">Base</h2>
             <div className="grid grid-cols-2 gap-4 max-w-md">
-              <ColorSwatch name="white" value={colors.base.white} shade="white" />
-              <ColorSwatch name="black" value={colors.base.black} shade="black" />
+              <ColorSwatch value={colors.base.White} shade="white" />
+              <ColorSwatch value={colors.base.Black} shade="black" />
             </div>
           </section>
 

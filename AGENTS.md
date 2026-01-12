@@ -184,12 +184,36 @@ import preset from "khaojai-design-system/tailwind-preset";
 
 **Note**: Untitled UI components are generated via CLI (`npx untitledui@latest init`), not installed as npm package. Only icons and utilities are npm packages.
 
+## Critical: Working with Generated Files
+
+**⚠️ Property names in generated files come from Figma JSON and have UNPREDICTABLE CASING.**
+
+Before referencing any property from `src/tokens/colors.ts` or `src/tailwind/preset.ts`:
+1. **ALWAYS read the actual generated file first** to check exact property names
+2. **DO NOT assume casing** - Figma exports may have `White`/`Black` (PascalCase), `grayLight` (camelCase), or `graymodern` (lowercase)
+3. **Run `pnpm typecheck`** after any changes to catch property name mismatches
+
+Example - WRONG assumption:
+```typescript
+// ❌ Assumed lowercase
+colors.base.white  // ERROR if generated file has "White"
+```
+
+Example - CORRECT approach:
+```typescript
+// ✅ First read src/tailwind/preset.ts to see actual keys:
+//    base: { "Black": "...", "White": "..." }
+colors.base.White  // Correct!
+```
+
 ## Don'ts
 
 - ❌ Don't edit generated files (`src/tokens/colors.ts`, `src/tailwind/preset.ts`)
+- ❌ Don't assume property name casing - always verify against generated files
 - ❌ Don't use inline styles for colors (use Tailwind classes)
 - ❌ Don't skip creating Storybook stories for components
 - ❌ Don't add heavy dependencies (keep bundle small)
+- ❌ Don't skip `pnpm typecheck` before committing
 
 ## Quick Reference Commands
 

@@ -86,9 +86,28 @@ import { Brand500 } from "khaojai-design-system/colors";
 import khaojaiPreset from "khaojai-design-system/tailwind-preset";
 ```
 
+## Critical: Generated File Property Names
+
+**⚠️ Property names in generated files have UNPREDICTABLE CASING from Figma.**
+
+Before using any property from generated files (`src/tokens/colors.ts`, `src/tailwind/preset.ts`):
+1. **ALWAYS read the generated file first** to verify exact property names
+2. **DO NOT assume casing** - could be `White`, `white`, `grayLight`, or `graylight`
+3. **Run `pnpm typecheck`** to catch mismatches before committing
+
+```typescript
+// ❌ WRONG - assuming lowercase without checking
+colors.base.white
+
+// ✅ CORRECT - read preset.ts first, saw "White" key
+colors.base.White
+```
+
 ## DO NOT
 
 - Edit `src/tokens/colors.ts` or `src/tailwind/preset.ts` manually (they are generated)
+- Assume property name casing - ALWAYS verify against the actual generated files
 - Add dependencies without checking peer dependency requirements
 - Use CSS-in-JS or styled-components (use Tailwind only)
 - Skip Storybook stories for new components
+- Skip `pnpm typecheck` before committing changes
