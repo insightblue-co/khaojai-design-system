@@ -85,18 +85,28 @@
     "typescript": "^5.7.2",
     "vite": "^6.0.5"
   },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "keywords": [
     "design-system",
     "react",
     "tailwindcss",
     "untitled-ui",
     "ui-components",
-    "color-tokens"
+    "color-tokens",
+    "khaojai"
   ],
   "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/insightblue-co/khaojai-design-system.git"
+  },
+  "homepage": "https://insightblue-co.github.io/khaojai-design",
+  "bugs": {
+    "url": "https://github.com/insightblue-co/khaojai-design-system/issues"
   }
 }

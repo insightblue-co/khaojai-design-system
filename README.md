@@ -176,6 +176,7 @@ import khaojaiPreset from "khaojai-design-system/tailwind-preset";
 
 ```
 khaojai-design-system/
+├── .github/workflows/    # GitHub Actions (CI/CD)
 ├── .storybook/           # Storybook configuration
 ├── figma/                # Figma export files
 │   └── exported-styles.json
@@ -194,6 +195,28 @@ khaojai-design-system/
 ├── tailwind.config.ts
 └── tsup.config.ts
 ```
+
+## CI/CD
+
+This project uses GitHub Actions for continuous integration and deployment:
+
+- **CI**: Runs on every push/PR - builds and type-checks
+- **Release**: Publishes to npm when pushing to `main`
+- **Storybook**: Auto-deploys to GitHub Pages
+
+### Publishing a New Version
+
+1. **Via GitHub Actions** (Recommended):
+   - Go to Actions → Version Bump → Run workflow
+   - Choose `patch`, `minor`, or `major`
+
+2. **Locally**:
+   ```bash
+   npm version patch  # or minor/major
+   git push && git push --tags
+   ```
+
+See [PUBLISHING.md](./PUBLISHING.md) for detailed setup instructions.
 
 ## License
 
